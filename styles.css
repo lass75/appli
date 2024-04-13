@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+#taskInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+#addBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+.taskItem {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.deleteBtn {
+    float: right;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.logo {
+
+    width: 220px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+    margin-right: 20px; /* Marge à droite pour séparer l'image des liens de navigation */
+}
